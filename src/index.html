@@ -1,14 +1,9 @@
-<!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <title>Test</title>
-  <base href="/">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" type="image/x-icon" href="favicon.ico">
-</head>
-<body>
-  <a>Hi</a>
-  <app-root></app-root>
-</body>
-</html>
+<h1>Test App</h1>
+<nav>
+  <ul>
+    <li><a routerLink="/Test" routerLinkActive="active" ariaCurrentWhenActive="page">Test</a></li>
+    <li><a routerLink="/Play" routerLinkActive="active" ariaCurrentWhenActive="page">Play</a></li>
+  </ul>
+</nav>
+
+<router-outlet></router-outlet>
