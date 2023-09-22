@@ -5,12 +5,14 @@ import { AppComponent } from './app.component';
 import { TestComponent } from './test/test.component';
 import { PlayComponent } from './play/play.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { VacationsComponent } from './Vacations/vacations.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     TestComponent,
-    PlayComponent
+    PlayComponent,
+    VacationsComponent
   ],
   imports: [
     BrowserModule,
